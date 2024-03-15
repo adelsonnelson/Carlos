@@ -1,0 +1,43 @@
+@import url();
+
+
+/*:root {      Define variável */
+      
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background: linear-gradient(#9A4908,#E9B966);
+    display: grid;
+    grid-template-columns: 594px auto;
+    min-height: 100vh;
+}
+
+header img{
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: 10px;
+}
+
+main img {
+    margin: 150px;
+}
+
+
+main a {
+    font-size: 30px;
+    margin: 200px;
+    color: white;
+    text-decoration: none;
+}
