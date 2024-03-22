@@ -24,15 +24,15 @@ footer {
     border-top: solid 1px black;
 }
 
-footer facebook{
+.facebook{
     padding-left: 15px;
     padding-right: 15px;}
 
-footer twiter{
+.twiter{
     padding-left: 15px;
     padding-right: 15px;}
 
-footer sobre{
+.sobre{
     padding-left: 15px;
     padding-right: 15px;}
 
@@ -58,4 +58,22 @@ footer sobre{
 
 .baska:hover{
     scale: 1.1;
+}
+
+
+
+
+@media (max-width:400px) {
+    main.comentario {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    main.index section {
+        flex-direction: column;
+    }
+
+    main.index section img {
+        width: 100%;
+    }
 }
