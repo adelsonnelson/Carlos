@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background: linear-gradient(#9A4908,#E9B966);
+    display: grid;
+    min-height: 100vh;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+footer {
+    display: flex;
+    align-items: center;
+    border-top: solid 1px black;
+}
+
+footer facebook{
+    padding-left: 15px;
+    padding-right: 15px;}
+
+footer twiter{
+    padding-left: 15px;
+    padding-right: 15px;}
+
+footer sobre{
+    padding-left: 15px;
+    padding-right: 15px;}
+
+.boxe{
+    transition: all 0.3s;
+}
+
+.boxe:hover{
+    scale: 1.1;
+}
+
+.fut{
+    transition: all 0.3s;
+}
+
+.fut:hover{
+    scale: 1.1;
+}
+
+.baska{
+    transition: all 0.3s;
+}
+
+.baska:hover{
+    scale: 1.1;
+}
