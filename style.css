@@ -45,9 +45,25 @@ a {
     border-radius: 20%;
     justify-items: center;
     border: 3px solid black;
+    padding-top: 15px;
 }
 
 a:hover {
     scale: 1.2;
     transition: 0.3s;
+}
+
+@media (max-width:400px) {
+    main.comentario {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    main.index section {
+        flex-direction: column;
+    }
+
+    main.index section img {
+        width: 100%;
+    }
 }

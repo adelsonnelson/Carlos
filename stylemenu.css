@@ -69,6 +69,12 @@ footer {
         grid-template-columns: auto;
     }
 
+    body {
+        grid-template-columns: 594px auto;
+    }
+
+
+    
     main.index section {
         flex-direction: column;
     }
